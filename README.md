@@ -10,19 +10,8 @@ type Jichao =
 
 println(summon[ShowMarkdown[Jichao]].show)
 ```
-
-## working on
-- Scala
-- PureScript
-## find me on
-- [Twitter](https://twitter.com/oyanglulu)
-- [Reddit](https://reddit.com/oyanglulu)
-- [Blog](https://blog.oyanglul.us)
-- [Grokking Monad](https://gumroad.com/l/grokking-monad)
-- [前端函数式攻城指南](https://m.douban.com/book/subject/26883736/)
-
 <details>
-  <summary>Where</summary>
+  <summary>...</summary>
 <pre>
 trait <|>[HasA, HasB]
 
@@ -86,3 +75,13 @@ given [S <: String](using m: ValueOf[S]) as ShowMarkdown[S] {
   }
 </pre>
 </details>
+
+## working on
+- Scala
+- PureScript
+## find me on
+- [Twitter](https://twitter.com/oyanglulu)
+- [Reddit](https://reddit.com/oyanglulu)
+- [Blog](https://blog.oyanglul.us)
+- [Grokking Monad](https://gumroad.com/l/grokking-monad)
+- [前端函数式攻城指南](https://m.douban.com/book/subject/26883736/)
