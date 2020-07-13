@@ -1,6 +1,16 @@
 ```scala
+type Jichao =
+  "working on" --Language.Scala --Language.PureScript <|>
+  "find me on"
+    -- Social.Twitter["oyanglulu"]
+    -- Social.Reddit["oyanglulu"]
+    -- Social.Blog["https://blog.oyanglul.us"]
+    -- Social.Publication["Grokking Monad", "https://gumroad.com/l/grokking-monad"]
+    -- Social.Publication["前端函数式攻城指南", "https://m.douban.com/book/subject/26883736/"]
+
 println(summon[ShowMarkdown[Jichao]].show)
 ```
+
 ## working on
 - Scala
 - PureScript
@@ -11,17 +21,9 @@ println(summon[ShowMarkdown[Jichao]].show)
 - [Grokking Monad](https://gumroad.com/l/grokking-monad)
 - [前端函数式攻城指南](https://m.douban.com/book/subject/26883736/)
 
-# Where type level Jichao
-```scala
-type Jichao =
-  "working on" --Language.Scala --Language.PureScript <|>
-  "find me on"
-    -- Social.Twitter["oyanglulu"]
-    -- Social.Reddit["oyanglulu"]
-    -- Social.Blog["https://blog.oyanglul.us"]
-    -- Social.Publication["Grokking Monad", "https://gumroad.com/l/grokking-monad"]
-    -- Social.Publication["前端函数式攻城指南", "https://m.douban.com/book/subject/26883736/"]
-
+<details>
+  <summary>Where</summary>
+<pre>
 trait <|>[HasA, HasB]
 
 trait --[Kind, Type]
@@ -82,4 +84,5 @@ given [R <: Language](using m: Mirror.Of[R], name: ValueOf[m.MirroredLabel]) as 
 given [S <: String](using m: ValueOf[S]) as ShowMarkdown[S] {
     def show: String = m.value
   }
-```
+</pre>
+</details>
