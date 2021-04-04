@@ -1,23 +1,3 @@
-## used to work on
-- JavaScript
-- Clojure
-- Ruby
-- Python
-- Haskell
-## working on
-- Scala
-- PureScript
-## find me on
-- [Twitter](https://twitter.com/oyanglulu)
-- [Reddit](https://reddit.com/oyanglulu)
-- [Keybase proofs](https://keybase.io/oyanglulu)
-- [Blog](https://blog.oyanglul.us)
-- [GPG public keys](https://github.com/jcouyang.gpg)
-- [SSH public keys](https://github.com/jcouyang.keys)
-- [Grokking Monad](https://gumroad.com/l/grokking-monad)
-- [前端函数式攻城指南](https://m.douban.com/book/subject/26883736/)
-
-## [Source Code](./src/main/scala/Main.scala)
 ```scala
 type Jichao =  "" <>
   "used to work on"
@@ -37,3 +17,24 @@ type Jichao =  "" <>
     -- Link["Grokking Monad", "https://gumroad.com/l/grokking-monad"]
     -- Link["前端函数式攻城指南", "https://m.douban.com/book/subject/26883736/"]
 ```
+<details>
+<summary>sbt run</summary>
+## used to work on
+- JavaScript
+- Clojure
+- Ruby
+- Python
+- Haskell
+## working on
+- Scala
+- PureScript
+## find me on
+- [Twitter](https://twitter.com/oyanglulu)
+- [Reddit](https://reddit.com/oyanglulu)
+- [Keybase proofs](https://keybase.io/oyanglulu)
+- [Blog](https://blog.oyanglul.us)
+- [GPG public keys](https://github.com/jcouyang.gpg)
+- [SSH public keys](https://github.com/jcouyang.keys)
+- [Grokking Monad](https://gumroad.com/l/grokking-monad)
+- [前端函数式攻城指南](https://m.douban.com/book/subject/26883736/)
+</details>
