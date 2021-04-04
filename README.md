@@ -19,6 +19,7 @@ type Jichao =  "" <>
 ```
 <details>
 <summary>sbt run</summary>
+
 ## used to work on
 - JavaScript
 - Clojure
@@ -37,4 +38,5 @@ type Jichao =  "" <>
 - [SSH public keys](https://github.com/jcouyang.keys)
 - [Grokking Monad](https://gumroad.com/l/grokking-monad)
 - [前端函数式攻城指南](https://m.douban.com/book/subject/26883736/)
+
 </details>
